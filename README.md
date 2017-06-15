@@ -1,7 +1,7 @@
 # SmallFileEncryptor
 
 AES encryption for node.js
-###Example:
+**Example:**
 ```javascript
 var SFE = require('./smallfileencriptor.js');
 	SFE.encryptBinary('./SomeDir/SomeFile.png', function(result){
@@ -11,7 +11,7 @@ var SFE = require('./smallfileencriptor.js');
 	callback(result);
 });
 ```
-###Android decrypt example:
+**Android decrypt example:**
 
 ```java
 FileInputStream fis = new FileInputStream(encPath);
